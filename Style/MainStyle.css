@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width:100%;
+	background-color:#FC9;
+	float:left;
+}
+
+#header{
+	width: 100%;
+	background-color:#F93;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight: bolder;
+
+}
+
+#banner{
+	margin:0px;
+	width:100%;
+	height:300px;
+	background-color:#FC9;
+	background-image: url(../DiggersBeachVolleyball/sand_edit.jpg);
+	margin: 0px;
+	background-position: left;
+	background-repeat: repeat;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#nav{
+	margin: 0px;
+	width: 20%;
+	float: left;
+	background-color: #804000;
+	vertical-align: top;
+	height:100%;
+	max-height:100%;
+}
+
+#nav table{
+	text-align: left;
+	font-size: large;
+	color: #FFF;
+	padding: 5px;
+	margin: 0px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#body{
+	margin: 0px;
+	width: 100%;
+	background-color: #FC9;
+	color: #000;
+	border-top-style: solid;
+	border-top-width: medium;
+	border-top-color: #804000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	max-height:100%;
+	height:100%;
+}
+
+#body h2{
+	text-align:center;
+	border-style:double;
+	border-width:thick;
+	border-color:#804000;
+}
+
+#body .center form table tr td label a {
+	color: #00F;
+}
+
+#footer{
+	margin: 0px;
+	width: 100%;
+	height: 20px;
+	float: left;
+	background-color: #000;
+	text-align: center;
+	font-size: xx-small;
+	color: #FFF;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*navigation link style */
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.a:link{
+	color:#FFF;
+}
+
+.a:visited{
+	color:#FFF;
+}
+
+.a:hover{
+	color:#FCC;
+	background-color:#DF7000;
+}	
+
+.a:active{
+	color:#FCC;
+	background-color:#DF7000;
+}
+/*end of navigation link style */
+
+/*Position style*/
+.center{
+	margin: auto;
+	width: 55%;
+	text-align: left;
+}
+
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+/*End of Position Style*/
+
+/*Paragraph style*/
+.p{
+	text-indent:50px;
+	text-align:left;
+}
